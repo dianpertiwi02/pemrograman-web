@@ -1,0 +1,57 @@
+*{
+    box-sixing: border-box;
+}
+
+header{
+    padding: 30px;
+    text-align: center;
+    border: 1px solid fuchsia;
+    background-color: gainsboro;
+}
+
+nav{
+    float: left;
+    width: 30%;
+}
+
+nav ul{
+    list-style-type: none;
+    boerder: 1px solid fuchsia;
+    bacground-color: gainsboro;
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+nav ul li a{
+    display: block;
+    color: yellow;
+    padding: 9px 17px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: grey;
+}
+
+article{
+    float: left;
+    width: 50px;
+    boerder: 1px solid rgb(44, 140, 230);
+    background-color: rgb(255, 0, 98);
+    padding: 0px 30px;
+}
+
+footer{
+    text-align: center;
+}
+
+.satu{
+    font-family: "Times New Roman", Times, serif;
+    color: rgba(177, 71, 0, 0.863)
+}
+
+.dua{
+    font-family: "Century725 Cn BT", " Courier New", monospace;
+    color:aqua;
+}
