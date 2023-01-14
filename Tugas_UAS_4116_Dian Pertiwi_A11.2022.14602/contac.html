@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contac</title>
+</head>
+<body>
+<h2>contac</h2>
+<form action="#" method="Post">
+    <p>
+        <label for="nama">Nama:</label><br>
+        <input type="text" name="nama" id="nama" required autocomplete
+        minlength="3" size="60">    
+    </p>
+    <p>
+        <label for="gender">Jenis Kelamin:</label><br>
+        <input type="radio" name="gender" value="laki-laki" checked> Laki-laki
+        <input type="radio" name="gender" value="perempuan"> Perempuan
+    </p>
+    <p>
+        <label for="alamat">Alamat Tinggal :</label><br>
+        <input type="text" name="alamat" id="alamat" required>
+    </p>
+    <p>
+        <label for="email"> Email :</label><br>
+        <input type="email" name="email" id="email" required>
+    </p>
+    <p>
+        <label for="no telp">No Telephone :</label><br>
+        <input type="no telp" name="No Telephone" id="no telp" required>
+    </p>
+       <p>
+        <label> Mengetahui Web Ini dari : </label><br>
+            <select name="kota">
+                <option selected="select">-= Pilih =-</option>
+                <option value="Web Udinus"> Web </option>
+                <option value="Surat Kabar"> Surat Kabar</option>
+                <option value="Teman/Kerabat"> Teman/Kerabat</option>
+                <option value="Browsing Internet"> Browsing Internet</option>
+            </select>
+    <p>
+        <label>Isi Komentar: </label><br>
+        <textarea name="komentar" rows="4" cols="50" ></textarea> <br /><br />
+    </p>
+    <p>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Batal"> 
+    </p>
+</form>
+</body>
+</html>
